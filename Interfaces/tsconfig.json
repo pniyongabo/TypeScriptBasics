@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES3",
+        "watch": false,
+        "lib": ["DOM", "ES2017"]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
