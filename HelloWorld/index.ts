@@ -1,3 +1,3 @@
 console.log("Hello World!");
 
-let increment = x => x+1;
+let increment = x => x+2;
