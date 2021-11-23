@@ -1,5 +1,6 @@
 let num1 = 1; // implicit type - primitive type - number
-let num2: number = 2; // explicit type
+let num2: number;
+num2 = 2; // explicit type
 // num1 = "1"; // error that vanilla JS would not catch
 // num2 = "2"; // error
 
@@ -25,6 +26,8 @@ interface Person {
     last: string;
     [key: string]: any;
 }
+
+const person1: Person = {"first": "Patrick", "last": "Niyongabo", "height": 12}
 
 
 const arr3: Person[] = [];

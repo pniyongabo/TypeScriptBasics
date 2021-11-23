@@ -1,7 +1,7 @@
 type Style1 = string;
 let font1: Style1 = "aria";
 
-type Style2 = 'italic' | 'bold' | 23; // accepts any combination of existing types
+type Style2 = 'italic' | 'bold' | 23;
 let font2: Style2 = 'italic';
 
 interface Person {

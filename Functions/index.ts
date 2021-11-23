@@ -2,7 +2,7 @@
 //     return Math.pow(x, y);
 // }
 
-// pow("2", "3"); // this would fail at run-time
+// pow("2", "3"); // this would fail at runtime
 
 function pow(x: number, y: number): string {
     return Math.pow(x, y).toString();
@@ -17,6 +17,6 @@ function printSomething(z: string, w?: string): void {
     }
 }
 
-printSomething("hello World!")
-printSomething("hello World!", "Hello Again!")
+printSomething("Hello World!")
+printSomething("Hello World!", "Hello Again!")
 

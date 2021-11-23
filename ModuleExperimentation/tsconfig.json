@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es3", 
+        // "target": "es6",
+        "watch": false,
+        "module": "commonjs", 
+        // "module": "es2020",
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
